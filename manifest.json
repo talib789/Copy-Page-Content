@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Copy Page Content",
+  "version": "1.0",
+  "permissions": ["clipboardWrite", "contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
+
